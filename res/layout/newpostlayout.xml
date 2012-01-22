@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b8"
+    android:scrollbars="vertical"
+    >
+    
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="20px"
+    android:background="@drawable/bgtrasp1"
+    >
+	<TextView 
+	android:textAppearance="?android:attr/textAppearanceMedium" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:text="NOTES" 
+	android:id="@+id/textView2"
+	android:textColor="#FACC2E">
+	</TextView>
+
+</LinearLayout>
+
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scroll"
+    >
+<LinearLayout 
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:paddingBottom="3px"
+android:id="@+id/note"
+>
+ 
+<ImageView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/photo"
+	android:background="@drawable/borderstyle"
+	
+	
+	/>
+   
+	<EditText 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:inputType="textMultiLine" 
+	android:id="@+id/maineditText"
+	android:gravity="top"
+	android:background="@drawable/blankbg"
+	android:text=""
+	android:scrollbars="vertical"
+	android:textColor="#633"
+	android:paddingTop="10dp"
+	android:hint="Where are You now ?">
+    
+	</EditText>
+	
+	</LinearLayout>
+	
+	
+	</ScrollView>
+
+
+
+
+<LinearLayout 
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/buttonLayout">
+
+
+	
+<LinearLayout 
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_weight="0.1"
+android:background="@drawable/rect1"
+
+>
+
+<Button 
+style="@style/HomeButton"
+android:id="@+id/camera_button"
+android:drawableTop="@drawable/camerastyle"
+/>
+
+<Button 
+style="@style/HomeButton"
+android:id="@+id/facebook_button"
+android:gravity="center_horizontal"
+android:drawableTop="@drawable/facebookstyle"
+/>
+
+<Button
+style="@style/HomeButton"
+android:id="@+id/twitter_button"
+android:drawableTop="@drawable/twitterstyle"
+
+/>
+
+<Button
+style="@style/HomeButton"
+android:id="@+id/website_button"
+android:drawableTop="@drawable/travelbuddystyle"
+
+/>
+</LinearLayout>
+
+<LinearLayout 
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_weight="0.1"
+android:background="@drawable/rect1"
+>
+
+
+<Button 
+style="@style/HomeButton"
+android:id="@+id/save_button"
+android:gravity="center_horizontal"
+android:drawableTop="@drawable/savestyle"
+android:text="Save"
+/>
+
+<Button
+style="@style/HomeButton"
+android:id="@+id/cancel_button"
+android:drawableTop="@drawable/cancelstyle"
+android:text="Cancel"
+/>
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+    
+</LinearLayout>
+
+

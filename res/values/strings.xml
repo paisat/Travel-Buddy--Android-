@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SamsungMIv4Activity!</string>
+    <string name="app_name">Travel Buddy</string>
+    <string name="api_key">0xynyI2BfECt2O6GHc1QRkpXTFx3PQfu4FbB9SQ</string>
+    <string name="fb_key">123056311121086</string>
+</resources>

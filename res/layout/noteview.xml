@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/b8" android:layout_height="fill_parent">
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40px"
+    android:padding="4px"
+    android:background="@drawable/bgtrasp1"
+    >
+	<TextView 
+	android:textAppearance="?android:attr/textAppearanceMedium" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:text="Notes" 
+	android:id="@+id/header"
+	android:textColor="#FACC2E">
+	</TextView>
+	
+	<TextView 
+	android:textAppearance="?android:attr/textAppearanceMedium" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+	android:layout_width="wrap_content" 
+	android:text="Notes" 
+	android:id="@+id/header2"
+	android:textColor="#FACC2E">
+	</TextView>
+</RelativeLayout>
+
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollnote"
+    android:padding="5px"
+    >
+
+ <ImageView 
+ android:id="@+id/oldimage"
+ android:layout_height="wrap_content" 
+ android:layout_width="fill_parent"
+ android:background="@drawable/borderstyle"
+ android:layout_gravity="center"/>
+       
+</ScrollView>
+<ScrollView
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:padding="5px"
+android:id="@+id/olddnotes"
+android:gravity="center">
+
+
+<TextView 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/blankbg"
+android:scrollbars="vertical"
+android:id="@+id/preview"
+android:textColor="#633"
+android:textStyle="bold"
+
+ /> 
+ </ScrollView>
+    
+</LinearLayout>

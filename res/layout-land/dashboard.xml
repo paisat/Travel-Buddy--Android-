@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/b8">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  
+  android:layout_width="fill_parent"
+  android:layout_height="40px"
+  android:background="@drawable/rect1"
+  >
+    <TextView 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:id="@+id/welcome" 
+    android:textAppearance="?android:attr/textAppearanceLarge" 
+    android:text="TRAVEL BUDDY"
+    android:gravity="center"
+    android:textColor="#FACC2E">
+    </TextView>
+  
+</LinearLayout>
+
+
+  
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:layout_weight="1"
+  android:id="@+id/dashboardButton"
+  
+  >
+  
+  
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1">
+
+<Button 
+style="@style/HomeButton2"
+android:id="@+id/mylocation_button"
+android:text="My Location"
+android:drawableTop="@drawable/mylocationstyle"
+/>
+
+<Button
+style="@style/HomeButton2"
+android:id="@+id/searchlocation_button"
+android:text="Search Location"
+android:drawableTop="@drawable/searchlocationstyle"
+/>
+
+
+<Button 
+style="@style/HomeButton2"
+android:id="@+id/newpost_button"
+android:text="New Post"
+android:drawableTop="@drawable/newpoststyle"
+/>
+
+<Button
+style="@style/HomeButton2"
+android:id="@+id/oldposts_button"
+android:text="Old Posts"
+android:drawableTop="@drawable/oldpoststyle"
+/>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:id="@+id/galleryLayout"
+ 
+>
+   
+   
+<Gallery   
+android:id="@+id/gallery"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+  android:gravity="center_horizontal"
+  android:spacing="20px"
+/>
+  
+</LinearLayout>
+
+
+
+</LinearLayout>
+</LinearLayout>
+
+
+
+
+          
